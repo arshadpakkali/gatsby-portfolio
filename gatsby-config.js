@@ -3,6 +3,7 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 module.exports = {
+  pathPrefix: "/gatsby-portfolio",
   siteMetadata: {
     title: data.SiteTitle,
     description: data.SiteDescription,
